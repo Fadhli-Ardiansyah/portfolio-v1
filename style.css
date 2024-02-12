@@ -9,7 +9,10 @@ body {
   margin-left: -80px;
 }
 .navbar-nav {
-  margin-right: -10px;
+  margin-right: -23px;
+}
+.navbar-toggler{
+  margin-right:200px;
 }
 .navbar-brand {
   font-family: viga;
@@ -20,6 +23,7 @@ body {
   font-weight: 500;
   color: white;
 }
+
 .navbar a:hover {
   color: rgb(179, 179, 179);
 }
@@ -143,6 +147,9 @@ footer h6 {
   }
 }
 @media (max-width: 600px) {
+  .navbar-nav{
+    margin-right:0;
+  }
   section#about {
     display: grid;
     grid-template-rows: 1fr;
@@ -192,5 +199,8 @@ footer h6 {
   .rekrut .btn {
     position: absolute;
     left: 10px;
+  }
+  .tombol-sosial{
+    margin-left:-30px;
   }
 }
